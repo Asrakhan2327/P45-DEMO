@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="demo.js">
+      <div>
+        <label for="name">Enter your name</label>
+        <input type="text" id="name" placeholder="Enter Name" value="" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Enter Your Email</label>
+        <input type="email" id="email" placeholder="Enter Email" />
+      </div>
+      <br />
+      <div>
+        <label for="psw">Enter Password</label>
+        <input type="password" id="psw" placeholder="Enter Password" />
+      </div>
+      <br />
+      <div>
+        <label for="num">Enter phone no</label>
+        <input type="number" id="num" placeholder="Enter number" />
+      </div>
+      <div>
+        <label for="dob">select your birth date</label>
+        <input type="date" id="dob" />
+      </div>
+      <br />
+      <div>
+        <label for="gender">Select gender</label>
+        <input type="radio" name="gender" id="male" value="male" />Male
+        <input type="radio" name="gender" id="female" value="female" />Female
+      </div>
+      <br />
+      <div>
+        <label for="age">Are You eligible?</label>
+        <input type="checkbox" id="age" value="eligible" checked>
+      </div>
+      <br />
+      <div>
+        <label for="hobyy">Select hobbies</label>
+        <input type="checkbox" id="singing" value="singing" />singing
+        <input type="checkbox" id="dance" value="dance" />dance
+        <input type="checkbox" id="sports" value="sports" />sports
+      </div>
+      <br />
+      <div>
+        <label for="course">Select Your course</label>
+        <select id="course">
+          <option value="frontend">frontend</option>
+          <option value="backend">backend</option>
+          <option value="fullstack" selected>fullstack</option>
+        </select>
+      </div>
+      <button type="submit">SEND DATA</button>
+    </form>
+  </body>
+</html>

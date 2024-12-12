@@ -1,0 +1,10 @@
+/* Element selector */
+
+body {
+  background-color: blue;
+  color: white;
+}
+h2 {
+  background-color: pink;
+  color: red;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <form action="demo.js" method="post">
+      <div>
+        <label for="msg">Message</label> <br />
+        <textarea id="msg" cols="20" rows="5"></textarea>
+      </div>
+      <div>
+        <label for="vehicle">Select Car</label>
+        <input type="text" id="vehicle" list="cars" />
+        <datalist id="cars">
+          <option value="BMW"></option>
+          <option value="mercedes"></option>
+          <option value="Audi"></option>
+          <option value="Jaguar"></option>
+          <option value="Tata"></option>
+          <option value="Tesla"></option>
+        </datalist>
+      </div>
+      <!-- <button type="submit">Send</button> -->
+       <input type="submit" value="Send Data">
+       <input type="reset" value="Reset Now">
+    </form>
+  </body>
+</html>

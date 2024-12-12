@@ -1,0 +1,38 @@
+/* Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ID selector */
+#myheading {
+  background-color: aqua;
+  color: blue;
+}
+/* Class selector */
+.common {
+  background-color: black;
+  color: red;
+}
+.diff {
+  font-size: 70px;
+}
+
+/* element selector */
+/* h1 {
+  color: green;
+  background-color: black;
+} */
+
+/* Nested Selector */
+div .myimg {
+  width: 100px;
+  height: 100px;
+}
+
+/* Multiple selector */
+h1,
+p,
+.common {
+  text-align: center;
+}
